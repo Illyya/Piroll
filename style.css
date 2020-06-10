@@ -21,6 +21,14 @@ h1 {
     margin-bottom: 35px;
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 60px;
+    margin: 0;
+    color: #1d1d1d;
+}
+
 .btn {
     display: inline-block;
     width: 180px;
@@ -79,3 +87,56 @@ h1 {
     padding-right: 25px;
 }
 
+.about-us {
+    padding: 95px 0 95px 0;
+}
+
+.about-us .container {
+    text-align: center;
+}
+
+.about-us p {
+    margin-bottom: 35px;
+}
+
+.professional-skills {
+    padding: 155px 0 160px 0;
+    background-color: #f8f9f9;
+}
+
+.professional-skills__list {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.professional-skills dt {
+    margin-bottom: 15px;
+}
+
+.professional-skills dd {
+    margin: 0;
+    margin-bottom: 35px;
+    width: 500px;
+    height: 3px;
+    background-color: #d8d8d8;
+}
+
+.professional-skills dd::before {
+    content: "";
+    display: table;
+    height: 3px;
+    background-color: #10c9c3;
+}
+
+.professional-skills dd:nth-of-type(1)::before {
+    width: 75%;
+}
+.professional-skills dd:nth-of-type(2)::before {
+    width: 90%;
+}
+.professional-skills dd:nth-of-type(3)::before {
+    width: 65%;
+}
