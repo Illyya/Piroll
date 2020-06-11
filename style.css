@@ -412,3 +412,55 @@ h2 {
     height: 65px;
     background: url("img/clients/1.png") no-repeat;
 }
+
+.form {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 95px 0 100px 0;
+}
+
+.form h2 {
+    margin-bottom: 35px;
+}
+
+.form p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+
+.form form {
+    font-size: 15px;
+    line-height: 24px;
+    max-width: 670px;
+    margin: 0 auto;
+}
+
+.form input,
+.form textarea {
+    padding: 15px 20px;
+    width: 100%;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+
+.inputs-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.inputs-top input {
+    max-width: 320px;
+
+}
+
+form button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+}
