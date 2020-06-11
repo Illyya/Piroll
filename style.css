@@ -444,6 +444,10 @@ h2 {
     box-sizing: border-box;
 }
 
+.form textarea {
+    height: 170px;
+}
+
 .inputs-top {
     display: flex;
     justify-content: space-between;
@@ -463,4 +467,48 @@ form button {
     color: #ffffff;
     text-align: center;
     border: none;
+}
+
+.page-footer {
+    background-color: #141414;
+    font-size: 15px;
+    line-height: 24px;
+    color: #bcbcbc;
+    padding: 90px 0 90px 0;
+}
+
+.page-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.page-footer p {
+    padding: 0;
+    margin: 0;
+}
+
+.page-footer__inc P {
+    margin-top: 20px;
+}
+
+.page-footer span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+.page-footer__list {
+    display: flex;
+}
+
+.page-footer ul {
+    list-style: none;
+    margin: 0;
+}
+
+.page-footer a {
+    text-decoration: none;
+    color: #bcbcbc;
+    
 }
