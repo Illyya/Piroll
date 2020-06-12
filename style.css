@@ -457,6 +457,11 @@ h2 {
     border: none;
 }
 
+.form input:focus,
+.form textarea:focus {
+    outline: none;
+}
+
 .form input:hover,
 .form textarea:hover {
     background-color: #2efff810;
